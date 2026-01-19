@@ -5,6 +5,7 @@ import { cn } from '../../lib/utils';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
 
+
 const NAV_ITEMS = [
     { label: 'Overview', icon: Home, id: 'overview' },
     { label: 'Demographic Decay', icon: Activity, id: 'demographic' },

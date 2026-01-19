@@ -3,6 +3,7 @@ import { Sidebar } from './Sidebar';
 import { Menu } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 
+
 export function DashboardLayout({ children, activeTab, onTabChange }) {
     const [isMobileOpen, setIsMobileOpen] = useState(false);
     const { user } = useAuth();
